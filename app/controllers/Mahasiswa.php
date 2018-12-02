@@ -28,6 +28,7 @@ class Mahasiswa extends Controller{
         }else{
             Flasher::setFlash('gagal','ditambahkan','danger');
             header('Location: '. BASEURL .'/mahasiswa');
+            exit;
         }
     }
     
