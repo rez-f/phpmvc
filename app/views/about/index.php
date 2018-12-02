@@ -1,6 +1,6 @@
     </body>
     <script>
-          var select = document.getElementsByTagName('a')[2];
+          var select = document.getElementsByTagName('a')[4];
           select.classList.add('active');
     </script>
     <body>
